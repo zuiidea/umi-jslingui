@@ -1,0 +1,40 @@
+.container {
+  background: #fff;
+}
+
+.containerInner {
+  border: 1px solid #f2f2f2;
+  box-shadow: 0 0 100px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 60px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.translate {
+  position: absolute;
+  right: 60px;
+  top: 60px;
+}
+
+.translateSplit {
+  margin: 0 6px;
+  color: #999;
+}
+
+.translateItem {
+  color: #000;
+
+  cursor: pointer;
+  &.active {
+    color: #999;
+  }
+}
+
+@media (max-width: 767px) {
+  .containerInner {
+    padding: 40px;
+  }
+}

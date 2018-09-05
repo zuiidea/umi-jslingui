@@ -1,6 +1,3 @@
-
 export default {
-  extraBabelPresets:[
-    '@lingui/babel-preset-react'
-  ]
+  extraBabelPresets: ['@lingui/babel-preset-react']
 }

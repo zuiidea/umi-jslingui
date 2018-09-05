@@ -16,7 +16,7 @@
   "devDependencies": {
     "@lingui/babel-preset-react": "^2.6.1",
     "@lingui/cli": "^2.6.1",
-    "umi": "^2.0.0"
+    "umi": "2.0.2"
   },
   "lingui": {
     "fallbackLocale": "en",
