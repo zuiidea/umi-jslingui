@@ -1,9 +1,7 @@
-import { withI18n, Trans } from '@lingui/react'
+import { Trans } from '@lingui/react'
 import styles from './index.less'
 
 const IndexPage = props => {
-  const { i18n } = props
-
   const Texts = [
     <Trans>There's a girl but I let her get away</Trans>,
     <Trans>It's all my fault cause pride got in the way</Trans>,
@@ -32,4 +30,4 @@ const IndexPage = props => {
   )
 }
 
-export default withI18n()(IndexPage)
+export default IndexPage

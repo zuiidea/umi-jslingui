@@ -1,0 +1,44 @@
+.fixedHeader {
+  position: absolute;
+  right: 60px;
+  top: 60px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.translate {
+  margin-left: 20px;
+}
+
+.translateSplit {
+  margin: 0 6px;
+  color: #999;
+}
+
+.translateItem {
+  color: #000;
+  text-decoration: none;
+  &.active {
+    color: #999;
+  }
+}
+
+.navgationItem {
+  color: #000;
+  text-decoration: none;
+  &.active {
+    color: #999;
+  }
+  & + .navgationItem {
+    margin-left: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .fixedHeader {
+    left: 0;
+    right: 0;
+    justify-content: space-between;
+    top: -32px;
+  }
+}

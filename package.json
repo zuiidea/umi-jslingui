@@ -11,7 +11,9 @@
     "extract": "lingui extract"
   },
   "dependencies": {
-    "@lingui/react": "^2.6.1"
+    "@lingui/react": "^2.6.1",
+    "antd": "^3.9.1",
+    "umi-plugin-react": "^1.0.2"
   },
   "devDependencies": {
     "@lingui/babel-preset-react": "^2.6.1",

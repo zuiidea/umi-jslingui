@@ -1,3 +1,11 @@
 export default {
-  extraBabelPresets: ['@lingui/babel-preset-react']
+  plugins: [
+    [
+      'umi-plugin-react',
+      {
+        antd: true,
+      },
+    ],
+  ],
+  extraBabelPresets: ['@lingui/babel-preset-react'],
 }
