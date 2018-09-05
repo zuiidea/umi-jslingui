@@ -1,0 +1,3 @@
+{
+  "presets": ["umi/babel", "@babel/preset-react", "@lingui/babel-preset-react"]
+}
