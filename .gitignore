@@ -15,4 +15,4 @@ npm-debug.log
 .umi-production
 
 # lingui
-locales/_build
+src/locales/_build
