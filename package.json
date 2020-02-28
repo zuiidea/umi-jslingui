@@ -20,7 +20,8 @@
   "devDependencies": {
     "@lingui/babel-preset-react": "^2.6.1",
     "@lingui/cli": "^2.6.1",
-    "umi": "2.0.2"
+    "@lingui/loader": "^2.8.3",
+    "umi": "^2.13.3"
   },
   "lingui": {
     "fallbackLocale": "en",

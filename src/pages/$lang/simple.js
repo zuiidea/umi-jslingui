@@ -7,7 +7,6 @@ import styles from './index.less'
 const SimplePage = props => {
   const { i18n } = props
   const name = 'zuiidea'
-  console.log(i18n)
 
   const Contents = [
     <Pagination defaultCurrent={1} total={50} showSizeChanger />,
