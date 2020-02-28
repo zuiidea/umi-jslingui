@@ -9,7 +9,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "prettier": "prettier --write 'src/**/*.js' ",
     "add-locale": "lingui add-locale",
-    "extract": "lingui extract"
+    "extract": "lingui extract",
+    "compile": "lingui compile"
   },
   "dependencies": {
     "@lingui/react": "^2.6.1",

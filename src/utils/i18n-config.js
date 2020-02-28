@@ -1,7 +1,7 @@
 const languages = ['en', 'zh']
 const catalogs = {
-  en: { messages: require('../locales/en/messages.json') },
-  zh: { messages: require('../locales/zh/messages.json') },
+  en: require('../locales/en/messages.js'),
+  zh: require('../locales/zh/messages.js'),
 }
 
 const defaultLanguage = 'en'
